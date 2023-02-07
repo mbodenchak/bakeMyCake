@@ -8,6 +8,8 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { ProductCardComponent } from './product-card/product-card.component';
 import { ProductViewComponent } from './product-view/product-view.component';
 import { FooterComponent } from './footer/footer.component';
+import { ReviewOrderComponent } from './review-order/review-order.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { FooterComponent } from './footer/footer.component';
     ProductCardComponent,
     ProductViewComponent,
     FooterComponent,
+    ReviewOrderComponent,
+    PageNotFoundComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],
